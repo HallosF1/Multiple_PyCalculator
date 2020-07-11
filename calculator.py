@@ -1,14 +1,26 @@
-def sum(num1, num2):
-    return num1 + num2
+def sum(mylist):
+    result = 0
+    for item in mylist:
+        result = result + item
+    return result
 
 
-def sub(num1, num2):
-    return num1 - num2
+def sub(mylist):
+    result = 2
+    for item in mylist:
+        result = result - item
+    return result
 
 
-def multiply(num1, num2):
-    return num1 * num2
+def multiply(mylist):
+    result = 1
+    for item in mylist:
+        result = result * item
+    return result
 
 
-def divide(num1, num2):
-    return num1 / num2
+def divide(mylist):
+    result = 1
+    for item in mylist:
+        result = item / result
+    return result
