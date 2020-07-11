@@ -1,4 +1,4 @@
-from _calculator import calculator
+import calculator
 
 
 while True:
