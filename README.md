@@ -1,3 +1,3 @@
 # Py_Calculator
 
-#I created calculator with using which I learned some methods.
+#I created a calculator with some methods I learned.
