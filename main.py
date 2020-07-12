@@ -12,17 +12,16 @@ while True:
         continue
 
 hm_numbers = int(input("How many numbers will you use ?"))
-choosen = list(map(lambda nums: int(input('enter a number : ')), range(1, hm_numbers + 1)))
-while True:
-    if options == '1':
-        print(calculator.sum(choosen))
-        break
-    elif options == '2':
-        print(calculator.sub(choosen))
-        break
-    elif options == '3':
-        print(calculator.multiply(choosen))
-        break
-    elif options == '4':
-        print(calculator.divide(choosen))
-        break
+choosen = list(map(lambda nums: int(input('enter a number : ')), range(1, hm_numbers + 1))) # I wanted to use disposable function.
+
+if options == '1':
+    print(calculator.sum(choosen))
+
+elif options == '2':
+    print(calculator.sub(choosen))
+
+elif options == '3':
+    print(calculator.multiply(choosen))
+
+elif options == '4':
+    print(calculator.divide(choosen))
